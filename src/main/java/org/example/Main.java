@@ -21,10 +21,10 @@ public class Main {
         //git:
         //add
         //commit
+        //push to origin -> into github repository
+        //pull / mergujes
 
 
-    //primitive types:
-    //int float double char long
     private static int sum(int a, int b) {
         int ffff;
         return a + b;
