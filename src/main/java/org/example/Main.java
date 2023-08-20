@@ -23,6 +23,7 @@ public class Main {
         //commit
         //push to origin -> into github repository
         //pull / mergujes
+        //local change
     }
 
     private static int sum(int a, int b) {
