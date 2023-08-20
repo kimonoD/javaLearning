@@ -26,8 +26,20 @@ public class Main {
         //local change
 
         //change from remote
+
+        PrimitiveDataTypes.playWithBooleans();
+        System.out.println("I have a functional chair "+ PrimitiveDataTypes.iHaveFunctionalChair(true,true));
+        System.out.println("I have a functional chair "+ PrimitiveDataTypes.iHaveFunctionalChair("hasLegs",true));
     }
 
+    /** sum -> function name
+     *
+     * @param a - parameter with type
+     * @param b - parameter with type
+     * @return return type
+     * private -> access modifier
+     * static - keyword
+     */
     private static int sum(int a, int b) {
         int ffff;
         return a + b;
