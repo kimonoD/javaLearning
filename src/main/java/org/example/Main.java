@@ -14,7 +14,7 @@ public class Main {
 
         int p = 2;
         int d = 3;
-        sum = sum (p, d);
+        sum = sum(p, d);
 
         System.out.println("Sum of from function " + sum);
 
@@ -23,7 +23,7 @@ public class Main {
         //commit
         //push to origin -> into github repository
         //pull / mergujes
-
+    }
 
     private static int sum(int a, int b) {
         int ffff;
