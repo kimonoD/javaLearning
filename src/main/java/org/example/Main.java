@@ -24,6 +24,8 @@ public class Main {
         //push to origin -> into github repository
         //pull / mergujes
         //local change
+
+        //change from remote
     }
 
     private static int sum(int a, int b) {
