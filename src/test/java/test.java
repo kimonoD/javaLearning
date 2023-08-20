@@ -7,4 +7,10 @@ public class test {
         System.out.println("Hello world.");
     }
 
+    @Test
+    public void test2()
+    {
+        System.out.println("Hello world.");
+    }
+
 }
