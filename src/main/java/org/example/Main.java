@@ -28,11 +28,22 @@ public class Main {
         //change from remote
 
         PrimitiveDataTypes.playWithBooleans();
-        System.out.println("I have a functional chair "+ PrimitiveDataTypes.iHaveFunctionalChair(true,true));
-        System.out.println("I have a functional chair "+ PrimitiveDataTypes.iHaveFunctionalChair("hasLegs",true));
+        System.out.println("I have a functional chair " + PrimitiveDataTypes.iHaveFunctionalChair(true, true));
+        System.out.println("I have a functional chair " + PrimitiveDataTypes.iHaveFunctionalChair(true, true));
+
+        double area = PlayingWithFunctions.computeTriangleArea(2, 4);
+        double area2;
+        area2 = PlayingWithFunctions.computeTriangleArea(2, 4);
+        double side = 2.3, height = 5.6;
+        double area_3 = PlayingWithFunctions.computeTriangleArea(side, height);
+        
+
+
+
     }
 
-    /** sum -> function name
+    /**
+     * sum -> function name
      *
      * @param a - parameter with type
      * @param b - parameter with type
