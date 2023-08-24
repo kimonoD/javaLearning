@@ -54,5 +54,13 @@ public class PlayingWithFunctions {
     }
 
     //create function which calculates circumference of triangle and print result if user wants(through parameter)
+    public static double circumferenceOfTriangle (double s1, double s2, double s3, boolean shouldPrint){
+        double circumference = s1 + s2 + s3;
+    if (shouldPrint){
 
+    System.out.println("Circumference of triangle is " + circumference);
+    }
+    return circumference;
+
+    }
 }

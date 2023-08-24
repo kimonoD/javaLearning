@@ -23,4 +23,10 @@ public class test {
     {
         PlayingWithFunctions.printSumGreaterThen2(4.0,1.0,true);
     }
+    @Test
+    public void circumferenceOfTriangle()
+    {
+      PlayingWithFunctions.circumferenceOfTriangle(1,2,3,true);
+    }
+
 }
