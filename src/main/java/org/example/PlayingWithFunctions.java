@@ -43,7 +43,15 @@ public class PlayingWithFunctions {
     //call printSumGreaterThen2(2,4) -> result: Numbers are: 2,4
     //call printSumGreaterThen2(-2,4) -> result:
     //call printSumGreaterThen2(-4,4) -> result:
+    public static double printSumGreaterThen2(double scitanec1, double scitanec2, boolean shouldPrint) {
+        double summary = scitanec1 + scitanec2;
+        if (scitanec1 + scitanec2>2){
+        System.out.println("The summary of your numbers is: " + summary);
+        }
+        return summary;
 
+
+    }
 
     //create function which calculates circumference of triangle and print result if user wants(through parameter)
 

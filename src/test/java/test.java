@@ -18,5 +18,9 @@ public class test {
     {
         PlayingWithFunctions.printSumMultiplyDivisionDifference(3,10);
     }
-
+    @Test
+    public void testprintSumGreaterThen2()
+    {
+        PlayingWithFunctions.printSumGreaterThen2(4.0,1.0,true);
+    }
 }
