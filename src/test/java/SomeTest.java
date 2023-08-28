@@ -2,7 +2,7 @@ import org.example.AccessModifiersExamples;
 import org.example.PlayingWithFunctions;
 import org.junit.jupiter.api.Test;
 
-public class test {
+public class SomeTest {
     @Test
     public void test()
     {
