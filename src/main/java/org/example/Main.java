@@ -25,10 +25,14 @@ public class Main {
         //pull / mergujes
         //local change
 
-        //change from remote
+        //change from temote
 
         PrimitiveDataTypes.playWithBooleans();
-        System.out.println("I have a functional chair " + PrimitiveDataTypes.iHaveFunctionalChair(true, true));
+        String textForPrint = "I have a functional chair " + PrimitiveDataTypes.iHaveFunctionalChair(true, true);
+        System.out.println(textForPrint.toLowerCase());
+        System.out.println(textForPrint.toUpperCase());
+        int compareResutl = textForPrint.compareTo("Ijkl");
+        System.out.println(textForPrint);
         System.out.println("I have a functional chair " + PrimitiveDataTypes.iHaveFunctionalChair(true, true));
 
         double area = PlayingWithFunctions.computeTriangleArea(2, 4);
@@ -36,8 +40,17 @@ public class Main {
         area2 = PlayingWithFunctions.computeTriangleArea(2, 4);
         double side = 2.3, height = 5.6;
         double area_3 = PlayingWithFunctions.computeTriangleArea(side, height);
-        
 
+
+        /***
+         *
+         * access inside package
+         */
+        //
+        AccessModifiersExamples.protectedAccess();
+        AccessModifiersExamples.publicAccess();
+        //private method can not be called from package only from its own class
+        //AccessModifiersExamples.privateAccess();
 
 
     }
