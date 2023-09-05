@@ -120,6 +120,16 @@ public class OneDimensionalArray {
         return sum;
     }
 
+    public static int findMin(int[] array) {
+        int min = Integer.MAX_VALUE;
+        for (int element : array) {
+            if (element < min) {
+                min = element;
+            }
+        }
+        return min;
+    }
+
 }
 
 

@@ -41,4 +41,17 @@ public class TestingArray {
 
         Assertions.assertEquals(55, OneDimensionalArray.sumViaSimpleForLoop());
     }
+
+    @Test
+    public void testHomeWork_findMin() {
+
+        int[] array = {4,3,1};
+        Assertions.assertEquals(1, OneDimensionalArray.findMin(array));
+
+        array = new int[]{4, 3, -31, 2};
+        Assertions.assertEquals(-31, OneDimensionalArray.findMin(array));
+
+        int[] array2 = {40, 20, 30, 4, 5, 6, 7, 8, 9, 10};
+        Assertions.assertEquals(4, OneDimensionalArray.findMin(array2));
+    }
 }
