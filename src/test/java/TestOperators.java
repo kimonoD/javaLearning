@@ -22,6 +22,25 @@ public class TestOperators {
         Assertions.assertEquals(true, Operators.isNumberEven(8));
     }
 
+    @Test
+    public void testIncrement() {
 
+        Operators.incrementOperator();
+    }
 
+    @Test
+    public void testDecrement() {
+
+        Operators.decrementOperator();
+    }
+    @Test
+    public void testAdditionalAssignment() {
+
+        Operators.additionalAssignment();
+    }
+    @Test
+    public void testSubtractionAssignment() {
+
+        Operators.subtractionAssignment();
+    }
 }

@@ -22,6 +22,31 @@ public class Operators {
 
     }
 
+    public static void incrementOperator() {
+
+        int a = 4, b = 2;
+        System.out.println("Increment: " + a++);
+        System.out.println("value: " + a);
+
+        System.out.println("Increment: " + (++a));
+        System.out.println("value: " + a);
+
+
+        // a++ ->, take a first, and then assign value: a = a+1
+
+    }
+    public static void decrementOperator() {
+
+        int a = 1, b = 2;
+        System.out.println("Decrement: " + a--);
+        System.out.println("value: " + a);
+
+        System.out.println("Decrement: " + (--a));
+        System.out.println("value: " + a);
+
+    }
+        // a++ ->, take a first, and then assign value: a = a+1
+
     public static boolean isNumberOdd(int i) {
         int modulo = i % 2;
         if (modulo == 1) {
@@ -53,12 +78,31 @@ public class Operators {
     }
 
     public static boolean isNumberOdd_4(int i) {
-      return i%2==1;
+        return i % 2 == 1;
     }
 
 
     public static boolean isNumberEven(int i) {
         return false;
     }
+    public static void additionalAssignment() {
 
+        int a = 1;
+        System.out.println("AdditionalAssignment : " + (a+=2)); //a+=2 je to iste ako a = a + 2 -'a' navýši o to čo je za =
+        System.out.println("value: " + a);
+
+        System.out.println("AdditionalAssignment : " + (a=4));
+        System.out.println("value: " + a);
+
+    }
+    public static void subtractionAssignment() {
+
+        int a = 1;
+        System.out.println("SubtractionAssignment : " + (a-=2));
+        System.out.println("value: " + a);
+
+        System.out.println("SubtractionAssignment : " + (a=-4));
+        System.out.println("value: " + a);
+
+    }
 }
