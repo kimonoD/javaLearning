@@ -110,28 +110,17 @@ public class Operators {
         System.out.println("multiplicationAssignment : " + (a*=2));
         System.out.println("value: " + a);
 
-        System.out.println("multiplicationAssignment : " + (a=4));
-        System.out.println("value: " + a);
-
     }
     public static void divisionAssignment() {
 
-        int a = 1;
-        System.out.println("divisionAssignment : " + (a/=2));
+        double a = 1;
+        System.out.println("divisionAssignment : " + ( a/=2));
         System.out.println("value: " + a);
-
-        System.out.println("divisionAssignment : " + (a=-4));
-        System.out.println("value: " + a);
-
     }
     public static void modulusAssignment() {
 
         int a = 1;
         System.out.println("modulusAssignment : " + (a%=2));
         System.out.println("value: " + a);
-
-        System.out.println("modulusAssignment : " + (a=-4));
-        System.out.println("value: " + a);
-
     }
 }
