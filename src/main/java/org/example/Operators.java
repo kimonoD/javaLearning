@@ -20,29 +20,6 @@ public class Operators {
 
         System.out.println("Modulo of two numbers %s,%s is: %s ".formatted(a, b, modulo));
 
-    }
-
-    public static void incrementOperator() {
-
-        int a = 4, b = 2;
-        System.out.println("Increment: " + a++);
-        System.out.println("value: " + a);
-
-        System.out.println("Increment: " + (++a));
-        System.out.println("value: " + a);
-
-
-        // a++ ->, take a first, and then assign value: a = a+1
-
-    }
-    public static void decrementOperator() {
-
-        int a = 1, b = 2;
-        System.out.println("Decrement: " + a--);
-        System.out.println("value: " + a);
-
-        System.out.println("Decrement: " + (--a));
-        System.out.println("value: " + a);
 
     }
         // a++ ->, take a first, and then assign value: a = a+1
@@ -81,7 +58,29 @@ public class Operators {
         return i % 2 == 1;
     }
 
+    public static void incrementOperator() {
 
+        int a = 4, b = 2;
+        System.out.println("Increment: " + a++);
+        System.out.println("value: " + a);
+
+        System.out.println("Increment: " + (++a));
+        System.out.println("value: " + a);
+
+
+        // a++ ->, take a first, and then assign value: a = a+1
+
+    }
+    public static void decrementOperator() {
+
+        int a = 1, b = 2;
+        System.out.println("Decrement: " + a--);
+        System.out.println("value: " + a);
+
+        System.out.println("Decrement: " + (--a));
+        System.out.println("value: " + a);
+
+    }
     public static boolean isNumberEven(int i) {
         return false;
     }
@@ -102,6 +101,36 @@ public class Operators {
         System.out.println("value: " + a);
 
         System.out.println("SubtractionAssignment : " + (a=-4));
+        System.out.println("value: " + a);
+
+    }
+    public static void multiplicationAssignment() {
+
+        int a = 1;
+        System.out.println("multiplicationAssignment : " + (a*=2));
+        System.out.println("value: " + a);
+
+        System.out.println("multiplicationAssignment : " + (a=4));
+        System.out.println("value: " + a);
+
+    }
+    public static void divisionAssignment() {
+
+        int a = 1;
+        System.out.println("divisionAssignment : " + (a/=2));
+        System.out.println("value: " + a);
+
+        System.out.println("divisionAssignment : " + (a=-4));
+        System.out.println("value: " + a);
+
+    }
+    public static void modulusAssignment() {
+
+        int a = 1;
+        System.out.println("modulusAssignment : " + (a%=2));
+        System.out.println("value: " + a);
+
+        System.out.println("modulusAssignment : " + (a=-4));
         System.out.println("value: " + a);
 
     }

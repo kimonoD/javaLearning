@@ -43,4 +43,20 @@ public class TestOperators {
 
         Operators.subtractionAssignment();
     }
+    @Test
+    public void testMultiplicationAssignment() {
+
+        Operators.multiplicationAssignment();
+    }
+    @Test
+    public void testDivisionAssignment() {
+
+        Operators.divisionAssignment();
+    }
+    @Test
+    public void testModulusAssignment() {
+
+        Operators.modulusAssignment();
+    }
+
 }
